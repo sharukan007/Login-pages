@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('dea50e2a46f279cbea2e45c38fccc2bd.jpg')no-repeat;
+background-size: cover;
+background-position: center;
+}
+.loginform {
+    background-color: transparent;
+    width: 420px;
+    color: aliceblue;
+    backdrop-filter: blur(4px);
+border: 0.5px solid gray;
+border-radius: 10px;
+padding: 30px 40px;
+}
+.loginform h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+.loginform .User {
+    width: 100%;
+    height: 50px;
+    background:transparent;
+    margin: 30px 0;
+    margin-right: 20px;
+}
+.User input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+.User input::placeholder{
+    color: white;
+}
+.loginform .Forgot {
+display: flex;
+justify-content:space-around;
+font-size: 15px;
+color: white;
+margin-bottom: 20px;
+}
+.Forgot a {
+text-decoration: none;
+    color: aliceblue;
+}
+.Forgot label input{
+    color: aliceblue;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.Forgot a:hover {
+    text-decoration: underline;
+}
+.loginform .btn {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 45px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+.loginform .end {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 10px;
+
+}
+.end a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.end a:hover {
+    text-decoration: underline;
+    color: red;
+}
